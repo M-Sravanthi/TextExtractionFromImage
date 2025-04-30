@@ -11,6 +11,9 @@ import pytesseract
 import re
 import csv
 
+# Specify the Tesseract.exe path
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 # Initialize a list to store the extracted data
 data = []
 
